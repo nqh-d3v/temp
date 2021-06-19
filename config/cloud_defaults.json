@@ -1,0 +1,37 @@
+{
+    "ServiceSettings": {
+        "EnableEmailInvitations": true,
+        "EnableCustomEmoji": true,
+        "EnableLegacySidebar": false,
+        "EnableBotAccountCreation": true
+    },
+    "TeamSettings": {
+        "MaxUsersPerTeam": 1000,
+        "ExperimentalViewArchivedChannels": true,
+        "TeammateNameDisplay": "full_name"
+    },
+    "EmailSettings": {
+        "RequireEmailVerification": true,
+        "FeedbackEmail": "feedback@mattermost.com",
+        "ReplyToAddress": "noreply@mattermost.com",
+        "ConnectionSecurity": "TLS"
+    },
+    "GuestAccountsSettings": {
+        "Enable": true
+    },
+    "SqlSettings": {
+        "MaxIdleConns": 10,
+        "MaxOpenConns": 100
+    },
+    "ClusterSettings": {
+        "UseExperimentalGossip": true,
+        "EnableExperimentalGossipEncryption": true,
+        "EnableGossipCompression": false
+    },
+    "ExperimentalSettings": {
+        "RestrictSystemAdmin": true
+    },
+    "MessageExportSettings": {
+        "DownloadExportResults": true
+    }
+}
